@@ -42,38 +42,6 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Twyster - Social Media Platform',
-    desc: 'Twyster is a MERN stack-based social media app modeled after Twitter, featuring posting, liking, following, comments, and personalized profiles. It supports real-time updates, theme-changing, and responsive design using Tailwind CSS.',
-    subdesc:
-      'Built with React.js, Node.js, Express.js, and MongoDB, Twyster is a full-stack project that showcases my skills in frontend and backend development. It is a great starting point for anyone looking to build a social media platform.',
-    href: 'https://twyster-app-1.onrender.com/',
-    texture: '/textures/project/twyster.mp4',
-    logo: '/assets/logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-    ],
-  },
-  {
     title: 'Workify - Project Management Platform',
     desc: 'Workify is a Next.js-powered collaborative project management app with workspaces, tasks, Kanban boards, real-time updates, and role-based access. Features calendar views, analytics, and mobile-friendly design.',
     subdesc: 
@@ -124,6 +92,76 @@ export const myProjects = [
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
     spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+    ],
+  },
+  {
+    title: 'Suburbia - E-commerce Landing Page',
+    desc: 'Suburbia Skate is an interactive 3D skateboard customizer and landing page, built with Next.js 15, Three.js, and GSAP. It offers a seamless experience for users to personalize skateboards in real time, adjusting decks, wheels, trucks etc',
+    subdesc:
+      'Powered by react-three-fiber for 3D rendering and Prismic CMS for content management, Suburbia Skate delivers smooth animations, physics-based interactions, and an immersive UI. It showcases cutting-edge web technologies for an engaging customization experience.',
+    href: 'https://suburbia99.netlify.app/',
+    texture: '/textures/project/suburbia.mp4',
+    logo: '/assets/icon.svg',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
+      },
+      {
+        id: 3,
+        name: 'Three.js',
+        path: '/assets/threejs.png',
+      },
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      
+    ],
+  },
+  {
+    title: 'Twyster - Social Media Platform',
+    desc: 'Twyster is a MERN stack-based social media app modeled after Twitter, featuring posting, liking, following, comments, and personalized profiles. It supports real-time updates, theme-changing, and responsive design using Tailwind CSS.',
+    subdesc:
+      'Built with React.js, Node.js, Express.js, and MongoDB, Twyster is a full-stack project that showcases my skills in frontend and backend development. It is a great starting point for anyone looking to build a social media platform.',
+    href: 'https://twyster-app-1.onrender.com/',
+    texture: '/textures/project/twyster.mp4',
+    logo: '/assets/logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
